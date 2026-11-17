@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sohbet tipin ne? 6 soruluk kısa test | Now Ajans</title>
+<meta name="description" content="Neşe kaynağı mı, dinleyici mi, hikâye anlatıcı mı, sakin ses mi? 6 soruda sohbet tarzını keşfet. Eğlence amaçlı; 18 yaş ve üzeri kadınlar için.">
+<link rel="canonical" href="https://nowajans.github.io/sohbet-tipin-ne/">
+<meta property="og:title" content="Sohbet tipin ne? 6 soruluk kısa test | Now Ajans">
+<meta property="og:description" content="Neşe kaynağı mı, dinleyici mi, hikâye anlatıcı mı, sakin ses mi? 6 soruda sohbet tarzını keşfet. Eğlence amaçlı; 18 yaş ve üzeri kadınlar için.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nowajans.github.io/sohbet-tipin-ne/">
+<meta property="og:locale" content="tr_TR">
+<link rel="stylesheet" href="/stil.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Sohbet tipin ne? 6 soruda keşfet", "description": "Neşe kaynağı mı, dinleyici mi, hikâye anlatıcı mı, sakin ses mi? 6 soruda sohbet tarzını keşfet. Eğlence amaçlı; 18 yaş ve üzeri kadınlar için.", "inLanguage": "tr", "datePublished": "2026-11-17", "dateModified": "2026-11-17", "mainEntityOfPage": "https://nowajans.github.io/sohbet-tipin-ne/", "author": {"@type": "Organization", "name": "Now Ajans"}, "publisher": {"@type": "Organization", "name": "Now Ajans"}}</script>
+</head>
+<body>
+<main>
+<p class="crumbs"><a href="/">← Now Ajans</a></p>
+<span class="tag">18 yaş ve üzeri · kadınlar için</span>
+<h1>Sohbet tipin ne? 6 soruda keşfet</h1>
+<p class="lead">Arkadaşların seni nasıl bir sohbetçi olarak görür? Altı kısa soruyla sohbet tarzını keşfet. Süre bir dakikadan az.</p>
+<style>
+.quiz{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin:22px 0}
+.quiz .q{font:600 19px/1.35 Georgia,"Times New Roman",serif;margin:0 0 14px}
+.quiz .prog{font-size:14px;color:var(--muted);margin:0 0 8px}
+.quiz button.opt{display:block;width:100%;text-align:left;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 10px;cursor:pointer;min-height:48px}
+.quiz button.opt:hover,.quiz button.opt:focus-visible{border-color:var(--accent);outline:none}
+.quiz .res h2{margin-top:0}
+.quiz button.again{font:inherit;font-weight:600;color:var(--accent);background:none;border:0;padding:8px 0;cursor:pointer;text-decoration:underline}
+</style>
+<div class="quiz" id="quiz" aria-live="polite"><noscript>Bu test için tarayıcında JavaScript açık olmalı.</noscript></div>
+<script>
+(function(){
+var Q=[
+["Arkadaş grubunda genelde sen ne yaparsın?",[["N","Ortamı güldürürüm"],["D","Herkesi dinler, sonra yorumlarım"],["H","Başımdan geçen bir şeyi anlatırım"],["S","Sakin kalır, gerektiğinde söz alırım"]]],
+["Telefonda biriyle konuşurken nasılsın?",[["N","Kahkahalar eksik olmaz"],["D","Çok soru sorarım"],["H","Uzun uzun anlatırım"],["S","Rahat ve sakin konuşurum"]]],
+["Yeni biriyle tanışınca ilk ne yaparsın?",[["N","Küçük bir espri yaparım"],["D","Ona bir soru sorarım"],["H","Kendimden bir anı paylaşırım"],["S","Önce gözlemler, sonra konuşurum"]]],
+["Boş bir akşamında ne yaparsın?",[["N","Arkadaşlarla görüşürüm"],["D","Bir arkadaşımı arar, halini sorarım"],["H","Gördüğüm bir şeyi birine anlatırım"],["S","Müzik açar, dinlenirim"]]],
+["Seni en iyi hangi cümle anlatır?",[["N","Ben gelince ortam canlanır"],["D","Bana her şeyi anlatabilirsin"],["H","Dinle, bir anım var"],["S","Az ama öz konuşurum"]]],
+["Eline bir mikrofon verilse ne yapardın?",[["N","Bir şakayla başlardım"],["D","Dinleyicilere soru sorardım"],["H","Bir hikâye anlatırdım"],["S","Sakin bir sohbet açardım"]]]
+];
+var R={
+N:["Neşe kaynağı","Enerjin ortamı hareketlendirir. Sohbette en büyük gücün mizah ve sıcaklık."],
+D:["Dinleyici","İnsanlar sana rahatça anlatır. Sohbette gücün empati ve doğru soruyu sorabilmek."],
+H:["Hikâye anlatıcı","Anıları ve olayları canlı anlatırsın. Sohbette gücün merak uyandırmak."],
+S:["Sakin ses","Dengeli ve güven veren bir tonun var. Sohbette gücün huzur vermek."]
+};
+var box=document.getElementById("quiz"),i=0,sc={N:0,D:0,H:0,S:0};
+function show(){
+ if(i>=Q.length){return done();}
+ var q=Q[i],h='<p class="prog">Soru '+(i+1)+' / '+Q.length+'</p><p class="q">'+q[0]+'</p>';
+ for(var k=0;k<q[1].length;k++){h+='<button type="button" class="opt" data-t="'+q[1][k][0]+'">'+q[1][k][1]+'</button>';}
+ box.innerHTML=h;
+ var b=box.querySelectorAll("button.opt");
+ for(var j=0;j<b.length;j++){b[j].addEventListener("click",function(){sc[this.getAttribute("data-t")]++;i++;show();});}
+}
+function done(){
+ var best="N",m=-1;
+ ["N","D","H","S"].forEach(function(t){if(sc[t]>m){m=sc[t];best=t;}});
+ box.innerHTML='<div class="res"><p class="prog">Sonucun</p><h2>'+R[best][0]+'</h2><p>'+R[best][1]+'</p><p class="lead">Bu test eğlence amaçlıdır; kimseyi eleyen ya da seçen bir sınav değildir. Sohbet etmeyi seven 18 yaş ve üzeri bir kadınsan, yayıncılığın nasıl işlediğini sade bir dille anlatabiliriz.</p><button type="button" class="again" id="again">Testi yeniden çöz</button></div>';
+ document.getElementById("again").addEventListener("click",function(){i=0;sc={N:0,D:0,H:0,S:0};show();});
+}
+show();
+})();
+</script>
+<h2>Bu test ne işe yarar?</h2>
+<p>Sadece eğlence: hangi sohbet tarzına yakın olduğunu görürsün. Yayıncılık, sohbet etmeyi ve karşındakini dinlemeyi seven biri için bir çalışma biçimi olabilir; ama kazanç kişiye göre değişir ve garanti edilmez. Hangi uygulamada neyin nasıl işlediğini, kamera kullanımının uygulamaya göre değiştiğini de dahil, WhatsApp'ta açıkça anlatırız.</p>
+<p>Daha fazlasını merak ediyorsan <a href="/sesli-sohbet-yayinciligi-nedir/">sesli sohbet yayıncılığı nedir?</a> sayfasına bak.</p>
+<p class="note">Kazanç kişiye göre değişir, garanti edilmez. Başvuru ücretsizdir; hiçbir aşamada ücret yoktur. Senden para, depozito ya da kimlik fotoğrafı istemeyiz.</p>
+<p>Başlamak ya da önce soru sormak için WhatsApp'tan BAŞLA yaz. Hat: 0530&nbsp;728&nbsp;80&nbsp;10.</p>
+<a class="cta" href="https://wa.me/905307288010?text=BA%C5%9ELA" rel="noopener">WhatsApp'tan BAŞLA yaz</a>
+<span class="num">0530 728 80 10</span>
+<div class="more">
+<a href="/nasil-yayinci-olunur/">Evden yayıncı olmak: nasıl başlanır? →</a>
+<a href="/guvenli-basvuru/">Güvenli başvuru: kırmızı bayraklar →</a>
+<a href="/sik-sorulan-sorular/">Sık sorulan sorular →</a>
+<a href="/sesli-sohbet-yayinciligi-nedir/">Sesli sohbet yayıncılığı nedir? →</a>
+<a href="/ogrenciler-icin-evden-ek-is/">Öğrenciler için evden ek iş →</a>
+<a href="/esnek-saatli-evden-calisma/">Esnek saatli evden çalışma →</a>
+<a href="/antalya-sezon-sonu-ek-is/">Sezon sonunda evden ek iş (Antalya) →</a>
+<a href="/evde-sohbeti-seven-kadinlar-icin-is/">Evde sohbeti seven kadınlar için esnek çalışma →</a>
+<a href="/">Ana sayfa →</a>
+</div>
+<footer>18 yaşından küçükler başvuramaz. Now Ajans · Antalya. Bu sayfa çerez kullanmaz ve veri toplamaz.</footer>
+</main>
+</body>
+</html>
