@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://nowajans.github.io/sitemap.xml
